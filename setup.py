@@ -19,7 +19,7 @@ setup(name='hermes',
       author='Michael J. Harms',
       author_email='harmsm@gmail.com',
       url='https://github.com/harmsm/hermes',
-      download_url='https://github.com/hermes/tarball/0.1',
+      download_url='https://github.com/harmsm/hermes/archive/v0.1.tar.gz',
         entry_points={
             'console_scripts': ['hermes = hermes.hermes:main'],
         },

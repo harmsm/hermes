@@ -31,8 +31,8 @@ student-accessible #in-class channel.
 + Start a poll by sending the message `$start question|answer1|answer2|...` on the master channel.
 + The bot will automatically randomize the order of the answers and append an "I'm confused" option at the end.
 + The poll prompt will appear on the poll channel.
-+ Users can vote by typing $A, $B, etc.  There votes disappear as they cast them,
-  so it's approximately anonymous and avoid students copying one another's answers.
++ Users can vote by typing `$A`, `$B`, etc in the poll channel. There votes disappear as they cast them,
+  so it's approximately anonymous and avoids students copying one another's answers.
 + Close the poll by sending the message `$close` on the master channel.
 + A summary graph will then appear on the poll channel.
 
