@@ -272,7 +272,6 @@ def run_poll(config_file,command_prefix="$"):
         bot.hpoll.update_counts(ctx.message.author,"A")
         await bot._poll_channel.delete_messages([ctx.message])
 
-
     @bot.command()
     async def B(ctx):
         bot.hpoll.update_counts(ctx.message.author,"B")
@@ -300,6 +299,42 @@ def run_poll(config_file,command_prefix="$"):
 
     @bot.command()
     async def G(ctx):
+        bot.hpoll.update_counts(ctx.message.author,"G")
+        await bot._poll_channel.delete_messages([ctx.message])
+
+    @bot.command()
+    async def a(ctx):
+        bot.hpoll.update_counts(ctx.message.author,"A")
+        await bot._poll_channel.delete_messages([ctx.message])
+
+
+    @bot.command()
+    async def b(ctx):
+        bot.hpoll.update_counts(ctx.message.author,"B")
+        await bot._poll_channel.delete_messages([ctx.message])
+
+    @bot.command()
+    async def c(ctx):
+        bot.hpoll.update_counts(ctx.message.author,"C")
+        await bot._poll_channel.delete_messages([ctx.message])
+
+    @bot.command()
+    async def d(ctx):
+        bot.hpoll.update_counts(ctx.message.author,"D")
+        await bot._poll_channel.delete_messages([ctx.message])
+
+    @bot.command()
+    async def e(ctx):
+        bot.hpoll.update_counts(ctx.message.author,"E")
+        await bot._poll_channel.delete_messages([ctx.message])
+
+    @bot.command()
+    async def f(ctx):
+        bot.hpoll.update_counts(ctx.message.author,"F")
+        await bot._poll_channel.delete_messages([ctx.message])
+
+    @bot.command()
+    async def g(ctx):
         bot.hpoll.update_counts(ctx.message.author,"G")
         await bot._poll_channel.delete_messages([ctx.message])
 
